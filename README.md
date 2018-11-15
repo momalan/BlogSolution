@@ -17,8 +17,10 @@ Available endpoints:
 - `GET /api/posts?tag=C#`
 - `GET /api/posts/{slug}`
 - `POST /api/posts`
+
 {"title" : "sample title", "description" : "this is a description", "body" : "this is body", "tagList": ["Programmer", "IT", "C#"]}
 - `PUT /api/posts/{slug}`
+
 {"title" : "sample title", "description" : "this is a description", "body" : "this is body" , "tagList": ["Programmer", "IT", "C#"]}
 - `DELETE /api/posts/{slug}`
 - `GET /api/tags`
