@@ -16,6 +16,7 @@ Available endpoints:
 - `GET /api/posts` => returns all blog posts, recent first.
 - `GET /api/posts?tag=C#` => filter by tag. 
 - `GET /api/posts/{slug}` => returns specific blog post
+
 - `POST /api/posts` => create blog post 
 
 {"title" : "sample title", "description" : "this is a description", "body" : "this is body", "tagList": ["Programmer", "IT", "C#"]}
