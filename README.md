@@ -13,7 +13,7 @@ System requirements:
 - load the solution using `BlogSolution.sln` into Visual Studio and run.
 
 Available endpoints:
-- `GET /api/posts` this 
+- `GET /api/posts` 
 - `GET /api/posts?tag=C#`
 - `GET /api/posts/{slug}`
 - `POST /api/posts`
