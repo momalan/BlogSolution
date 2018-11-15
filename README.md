@@ -24,6 +24,7 @@ Available endpoints:
 
 {"title" : "sample title", "description" : "this is a description", "body" : "this is body" , "tagList": ["Programmer", "IT", "C#"]}
 - `DELETE /api/posts/{slug}` => delete specific blog post
+
 - `GET /api/tags` => returns a list of all tags in database.
 
 All requests are in json type format.
